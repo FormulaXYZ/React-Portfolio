@@ -1,6 +1,6 @@
 # React Portfolio
 
-[Live Link]{();
+[Live Link](https://formulaxyz.github.io/react-portfolio/);
 
 ![screensot1](./src/images/react1.png)
 ![screensot1](./src/images/react2.png)
