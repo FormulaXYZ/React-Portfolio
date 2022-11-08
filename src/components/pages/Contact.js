@@ -18,9 +18,17 @@ function Contact() {
         const { target } = e;
         const inputType = target.name;
         const inputValue = target.value;
-
+        console.log(inputType, inputValue);
         // Based on the input type, we set the state of either email, name, and message
         if (inputType === 'email') {
+            const isValid = validateEmail(inputValue);
+            console.log('isValid', isValid);
+            if (!isValid) {
+                setErrorMessage('Your email is not valid');
+            } else {
+                setErrorMessage(' ');
+            }
+
             setEmail(inputValue);
         } else if (inputType === 'name') {
             setName(inputValue);

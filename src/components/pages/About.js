@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../../src/images/react1.png';
+import logo from '../../logo.png';
 export default function About() {
     return (
 
@@ -10,7 +10,7 @@ export default function About() {
                 Thomas Woldetsadik
 
             </p>
-            <img src={image} alt='logo' />
+            <img src={logo} width='200' height='200' alt='logo' />
         </div>
     );
 }
