@@ -8,14 +8,14 @@ export default function Portfolio() {
     return (
         <div>
             <h1>Portfolio</h1>
-            <p>
+            <div>
                 <h1>weatherApp</h1>
                 <a href="https://github.com/FormulaXYZ/weather-app"><img src={weath1} className=" project" alt="weatherapp" /> </a>
                 <div>
                     <h1>E-Commerce-Back-End</h1>
                     <a href="https://github.com/FormulaXYZ/E-Commerce-Back-End"><img src={ecom1} className=" project" alt="Ecommerceapp" /> </a>
                 </div>
-            </p>
+            </div>
             <h1>Text-Editor</h1>
 
             <a href="https://github.com/FormulaXYZ/-PWA-Text-Editor"><img src={teditor1} className=" project" alt="text-editorapp" /> </a>

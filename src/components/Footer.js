@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer className='footer'>
             <div className='content has-text-centered'>
-                <p>
+                <div>
                     <strong>My Portfolio</strong> {' '}
                     <hr />
                     <a href='https://github.com/formulaXYZ' target='_blank' rel='noreferrer'>
@@ -16,7 +16,7 @@ function Footer() {
                     </a>{' '}
                     {' '}{''}
                     <a href='/https://twitter.com/w90886764/' target='_blank'><BsTwitter /></a>
-                </p>
+                </div>
 
             </div>
         </footer>

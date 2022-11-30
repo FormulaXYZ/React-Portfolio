@@ -4,7 +4,7 @@ export default function Resume() {
     return (
         <div>
             <h1>Resume</h1>
-            <p>
+            <div>
                 <ol>
                     <h1>Front-End</h1>
 
@@ -29,7 +29,7 @@ export default function Resume() {
                 </ol>
 
 
-            </p>
+            </div>
         </div>
     );
 }
