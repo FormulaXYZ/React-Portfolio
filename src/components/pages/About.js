@@ -7,8 +7,8 @@ export default function About() {
             <h1>About me</h1>
             <p>
 
-                Thomas Woldetsadik
-
+                <h1>Thomas Woldetsadik</h1>
+                I Graduated from Berkeley Boot Camp and have great passion for coding and programing. please  Go to my portfolio page and visit some of my works.
             </p>
             <img src={logo} width='200' height='200' alt='logo' />
         </div>
